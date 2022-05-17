@@ -1,0 +1,156 @@
+html{
+    background-color: lavender;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(18, 18, 21,0.7);
+    height: 75px;
+    width:100%;
+    position:fixed;
+    top: 0px;
+    left:0px;
+    z-index: 10;
+}
+.header-logo{
+    color: lavender;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+}
+.header-right {
+    color:beige;
+    float: right;
+    padding: 5px;
+    transition: all 0.5s;
+    font-family:'Times New Roman', Times, serif
+}
+.header-right:hover{
+    background-color: darkgray;
+}
+.login{
+    line-height:65px;
+    padding: 0 25px;
+    color: beige;
+    display: block;
+    transition: all 0.5s;
+}
+
+.login-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    /* display: none;を追加してください */
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+  }
+  
+  .fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  
+  #signup-form, #login-form {
+    width: 100%;
+  }
+  
+  #signup-form h2, #login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input, #login-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }  
+
+.top-wrapper5{
+    padding:0px 0 200px 0;
+}
+.top-wrapper5 p{
+color: gray;
+text-align: center;
+margin-bottom: 100px;
+}
+.top-wrapper5 h1{
+    margin-top: 150px;
+    color: cadetblue;
+    text-align: center;
+    text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+}
+.img-son{
+    margin:0 10px 0 350px;
+}
+.footer-wrapper{
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    background-color: rgba(18, 18, 21,0.7);
+    height: 140px;
+}  
+  .footer-logo {
+    color: lavender;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  .footer-list {
+    float: right;
+    padding-right: 10px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-family:'Lucida Console';
+    color: beige;
+    text-align: left;
+  }

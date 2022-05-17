@@ -1,0 +1,232 @@
+html{
+    background-color: lavender;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(18, 18, 21,0.7);
+    height: 75px;
+    width:100%;
+    position:fixed;
+    top: 0px;
+    left:0px;
+    z-index: 10;
+}
+.header-logo{
+    color: lavender;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+}
+.header-right {
+    color:beige;
+    float: right;
+    padding: 5px;
+    transition: all 0.5s;
+    font-family:'Times New Roman', Times, serif
+}
+.header-right:hover{
+    background-color: darkgray;
+}
+.login{
+    line-height:65px;
+    padding: 0 25px;
+    color: beige;
+    display: block;
+    transition: all 0.5s;
+}
+
+.login-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    /* display: none;を追加してください */
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+  }
+  
+  .fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  
+  #signup-form, #login-form {
+    width: 100%;
+  }
+  
+  #signup-form h2, #login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input, #login-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }  
+
+.top-wrapper{
+    padding: 100px 1300px 400px 10px;
+    background-image: url(https://cdn.clipkit.co/tenants/381/item_images/images/000/397/298/large/9c963629-dc3f-4c6d-acda-12e95ecefd47.jpg?1549894953);
+    background-size: cover;
+    opacity: 0.6;
+}
+.top-wrapper h1{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:cadetblue;
+    -webkit-text-fill-color: white;
+    text-shadow: 2px 8px 0 cadetblue;
+}
+.top-wrapper p{
+    color: #808080;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+    -webkit-text-fill-color:white;
+    text-shadow: 2px 4px 0 white;
+    letter-spacing: 2px;
+
+} 
+
+.shop-wrapper{
+    margin-top: 100px;
+    text-align: center;
+    height: 700px;
+}
+.shop-text{
+padding: 0.5em 1em;
+margin: 1em 0;
+background: #f4f4f4;
+border-left: solid 30px cadetblue;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.shop-text h2{
+    color: #808080;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.shop-text p{
+    color: #808080;
+    margin-bottom: 100px;
+    margin: 20px;
+    padding: 0;
+}
+.shop{
+    float:left;
+    width: 33%;
+}
+.shops{
+    margin-bottom: 300px;
+}
+.shop img{
+    box-align: center;
+    margin-bottom: 0px;
+}
+.person-img{
+    padding-top: 20px;
+}
+.contents-img{
+    margin-top: -10px;
+    padding-right: -10px;
+}
+.shop a{
+    display: inline-bolck;
+    color:white;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 5px 9px 3px 8px;
+    opacity: 0.8;
+    box-shadow: 3px 5px lightgray;
+}
+.shop a:hover{
+    opacity: 1;
+}
+.shop a:active{
+    box-shadow: none;
+    position: relative;
+    top:7px;
+}
+.shop p{
+    color: #808080;
+}
+.footer-wrapper{
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    background-color: rgba(18, 18, 21,0.7);
+    height: 140px;
+}  
+  .footer-logo {
+    color: lavender;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  .footer-list {
+    float: right;
+    padding-right: 10px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-family:'Lucida Console';
+    color: beige;
+    text-align: left;
+  }
